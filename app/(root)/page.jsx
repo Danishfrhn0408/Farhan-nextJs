@@ -92,7 +92,7 @@ const MyPage = () => {
                         <motion.h1 className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold" initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.1, type: "spring" }}>About Me</motion.h1>
                         <Hr />
                         <motion.p className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5 max-w-2xl" initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.2, type: "spring" }}>
-                            I am a highly adaptable and disciplined developer with a >3.50 GPA, balancing a demanding academic load with military training (PALAPES UTeM) and part-time tech roles. I am eager to contribute scalable, data-driven problem-solving skills to a dynamic tech or engineering team.
+                            I am a highly adaptable and disciplined developer with a 3.50 GPA, balancing a demanding academic load with military training (PALAPES UTeM) and part-time tech roles. I am eager to contribute scalable, data-driven problem-solving skills to a dynamic tech or engineering team.
                         </motion.p>
                     </div>
                 </div>
