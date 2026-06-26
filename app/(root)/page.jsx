@@ -1,4 +1,4 @@
-// Copyright (C) 2025 Farhan
+// Copyright (C) 2026 Muhammad Danish Farhan
 // This file is part of Farhan-nextJs Portfolio.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
@@ -18,10 +18,7 @@ import ProjectAll from "@/public/image/projects.png";
 import Hr from "@/components/Hr";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function ScrollIndicator() {
@@ -81,7 +78,7 @@ const MyPage = () => {
                                     width={500}
                                     height={500}
                                     className="rounded-full w-full h-full object-cover "
-                                    alt="Farhan"
+                                    alt="Muhammad Danish Farhan"
                                     placeholder="blur"
                                 />
                             </div>
@@ -94,17 +91,17 @@ const MyPage = () => {
                                 delay: 0.2,
                                 type: "spring",
                             }}>
-                            Farhan
+                            Muhammad Danish Farhan
                         </motion.h3>
                         <motion.h1
-                            className="text-black text-4xl md:text-6xl lg:text-6xl 2xl:text-8xl font-bold my-2 md:my-5"
+                            className="text-black text-4xl md:text-6xl lg:text-6xl 2xl:text-7xl font-bold my-2 md:my-5"
                             initial={{ x: -100, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{
                                 delay: 0.3,
                                 type: "spring",
                             }}>
-                            AI & Software Developer
+                            AI Engineer & Software Developer
                         </motion.h1>
                         <motion.p
                             className="title text-md 2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -114,7 +111,7 @@ const MyPage = () => {
                                 delay: 0.4,
                                 type: "spring",
                             }}>
-                            Hi! I&rsquo;m Farhan, a software developer with a strong focus on Artificial Intelligence and Computer Vision. I am passionate about building smart systems, integrating hardware with IoT, and developing automated data pipelines.
+                            Final-year Computer Science (Artificial Intelligence) student seeking a 6-month internship. Experienced in Vision-Language Models (VLM), Deep Learning, Multi-Agent Systems (MAS), and IoT. A 4x Dean's List awardee combining technical expertise with military-level leadership training.
                         </motion.p>
                         <motion.div
                             className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -152,13 +149,14 @@ const MyPage = () => {
                                 width={400}
                                 height={550}
                                 placeholder="blur"
-                                alt="Farhan"
+                                alt="Muhammad Danish Farhan"
                                 className="rounded-full w-full h-full object-cover"
                             />
                         </div>
                     </motion.div>
                 </div>
             </Section>
+            
             <Section>
                 <div className="relative md:h-screen w-screen gap-4 flex justify-center items-center flex-col overflow-hidden">
                     <div className="z-0 mb-48 md:mb-0  md:absolute md:top-1/2  md:right-[10%] md:-translate-y-1/2">
@@ -203,29 +201,19 @@ const MyPage = () => {
                         </motion.h1>
                         <Hr />
                         <motion.p
-                            className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+                            className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5 max-w-2xl"
                             initial={{ x: -100, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{
                                 delay: 0.2,
                                 type: "spring",
                             }}>
-                            A brief introduction to my technical background and passion.
+                            I am a highly adaptable and disciplined developer with a >3.50 GPA, balancing a demanding academic load with military training (PALAPES UTeM) and part-time tech roles. I am eager to contribute scalable, data-driven problem-solving skills to a dynamic tech or engineering team.
                         </motion.p>
-                        <motion.div
-                            initial={{ y: 40, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            transition={{
-                                delay: 0.3,
-                                type: "spring",
-                            }}>
-                            <Button variation="primary">
-                                <Link href="/about">Learn More</Link>
-                            </Button>
-                        </motion.div>
                     </div>
                 </div>
             </Section>
+
             <Section>
                 <div className="relative md:h-screen w-screen gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
                     <div className="z-0 mb-48 md:mb-0  md:absolute md:top-1/2  md:right-[10%] md:-translate-y-1/2">
@@ -270,18 +258,14 @@ const MyPage = () => {
                         </motion.h1>
                         <Hr />
                         <motion.p
-                            className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+                            className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5 max-w-xl"
                             initial={{ x: -100, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{
                                 delay: 0.2,
                                 type: "spring",
                             }}>
-                            Selected works that I&apos;ve built, focusing on AI and systems architecture.
-                            <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-                                {" "}
-                                Including my final year projects.
-                            </span>
+                            Selected works featuring National Hackathons, Deep Learning models, and IoT integrations.
                         </motion.p>
                         <motion.div
                             initial={{ y: 40, opacity: 0 }}
@@ -297,6 +281,7 @@ const MyPage = () => {
                     </div>
                 </div>
             </Section>
+
             <Section>
                 <div className="relative md:h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
                     <div className="z-0 mb-48 md:mb-0  md:absolute md:top-1/2  md:right-[10%] md:-translate-y-1/2">
@@ -348,10 +333,7 @@ const MyPage = () => {
                                 delay: 0.2,
                                 type: "spring",
                             }}>
-                            Feel free to contact me if you have any{" "}
-                            <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-                                questions or opportunities to discuss.
-                            </span>
+                            Feel free to contact me if you have any questions or internship opportunities to discuss.
                         </motion.p>
                         <motion.p
                             className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
@@ -361,14 +343,14 @@ const MyPage = () => {
                                 delay: 0.3,
                                 type: "spring",
                             }}>
-                            <a href="mailto:your.email@gmail.com?subject=Hello&body=Hello Farhan,">
-                                your.email@gmail.com
+                            <a href="mailto:danish040827@gmail.com?subject=Internship/Job Opportunity&body=Hello Farhan,">
+                                danish040827@gmail.com
                             </a>
                         </motion.p>
                         {/* icons */}
                         <div className="flex justify-center items-center space-x-4">
                             <motion.a
-                                href="mailto:your.email@gmail.com?subject=Hello&body=Hello Farhan,"
+                                href="mailto:danish040827@gmail.com?subject=Internship/Job Opportunity&body=Hello Farhan,"
                                 aria-label="Send email"
                                 className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
                                 initial={{ y: 40, opacity: 0 }}
@@ -384,7 +366,7 @@ const MyPage = () => {
                             </motion.a>
 
                             <motion.a
-                                href="https://github.com/YourGitHubUsername"
+                                href="https://github.com/Danishfrhn0408"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="GitHub profile"
@@ -401,7 +383,7 @@ const MyPage = () => {
                                 />
                             </motion.a>
                             <motion.a
-                                href="https://www.linkedin.com/in/YourLinkedInUsername/"
+                                href="https://linkedin.com/in/muhammaddanishfarhan"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="LinkedIn profile"
