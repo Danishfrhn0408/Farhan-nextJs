@@ -1,11 +1,7 @@
-"use client";
+"use client"
 
-import dynamic from "next/dynamic";
+const Chat = () => {
+    return null;
+};
 
-const TopProgressBar = dynamic(() => import("@/components/TopProgressbar"), {
-	ssr: false,
-});
-
-export default function ClientTopProgressBar() {
-	return <TopProgressBar />;
-}
+export default Chat;
