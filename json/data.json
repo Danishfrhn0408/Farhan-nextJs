@@ -4,164 +4,21 @@
       "show": true,
       "title": "Multi-Agent Behaviour Detection System",
       "desc": [
-        "Architected an advanced AI-driven security system utilizing Vision-Language Models (VLM), AI Agents, and YOLOv8 for real-time computer vision and human behavior detection, achieving high tracking accuracy.",
-        "Integrated RFID technology (RC522 and UHF readers) with ESP32 microcontrollers to synchronize physical tracking with intelligent visual data processing with near-zero latency."
+        "Advanced AI-driven security system utilizing Vision-Language Models (VLM), AI Agents, and YOLOv8 for real-time computer vision and human behavior detection."
       ],
       "year": "2026",
       "preview": "",
       "code": "",
       "thumbnail": "",
-      "images": [
-        ""
-      ],
+      "images": [""],
       "tech": [
         "YOLOv8",
         "Vision-Language Models",
         "Python",
-        "ESP32",
-        "RFID / IoT",
-        "Multi-Agent Systems"
+        "RFID / IoT"
       ],
       "slug": "multi-agent-behaviour-detection",
       "category": [1, 2]
-    },
-    {
-      "show": true,
-      "title": "Project 2030: MyAI Future Hackathon",
-      "desc": [
-        "Engineered Sentin AI, a zero-touch, autonomous multi-agent monitoring system designed for elderly care alongside Team Cognix (Google Developer Groups UTM).",
-        "Integrated Google APIs and utilized computer vision to instantly detect emergency situations (e.g., falls) and simulate real-time caregiver alerts, reducing manual response dependencies by 100%."
-      ],
-      "year": "2026",
-      "preview": "",
-      "code": "",
-      "thumbnail": "",
-      "images": [
-        ""
-      ],
-      "tech": [
-        "AI Agents",
-        "Computer Vision",
-        "Google APIs",
-        "Python"
-      ],
-      "slug": "myai-future-hackathon",
-      "category": [2]
-    },
-    {
-      "show": true,
-      "title": "Intelligent Trading Analyst (JomHack Finalist)",
-      "desc": [
-        "Developed an intelligent Trading Analyst solution designed to analyze market data and provide actionable, data-driven trading insights for Challenge 2 as Team 058.",
-        "Successfully qualified for the final stage out of a highly competitive pool of hundreds of participants nationwide. Demonstrated elite project management and technical problem-solving skills."
-      ],
-      "year": "2026",
-      "preview": "",
-      "code": "",
-      "thumbnail": "",
-      "images": [
-        ""
-      ],
-      "tech": [
-        "Data Analytics",
-        "Python",
-        "Predictive Modeling",
-        "Pandas"
-      ],
-      "slug": "jomhack-trading-analyst",
-      "category": [2]
-    },
-    {
-      "show": true,
-      "title": "Smart Predictive Maintenance System",
-      "desc": [
-        "Developed a predictive maintenance model powered by Deep Learning and IoT simulations to monitor industrial machine parameters (temperature, vibration) for Varsity Hackathon USM.",
-        "Designed an intelligent classification system to output health scores and intelligent maintenance recommendations for SMEs, aimed at reducing machine downtime."
-      ],
-      "year": "2025",
-      "preview": "",
-      "code": "",
-      "thumbnail": "",
-      "images": [
-        ""
-      ],
-      "tech": [
-        "Deep Learning",
-        "IoT Simulation",
-        "Predictive Maintenance",
-        "Python"
-      ],
-      "slug": "smart-predictive-maintenance",
-      "category": [1, 2]
-    },
-    {
-      "show": true,
-      "title": "MindLock AI-Powered Password Generator",
-      "desc": [
-        "Developed an intelligent authentication system integrating AI-assisted password generation utilizing rule-based intelligence and leetspeak transformation.",
-        "Implemented biometric face verification and a visual memory system, improving secure, human-centered login processes. Built a conversational AI chatbot module to provide user guidance."
-      ],
-      "year": "2025",
-      "preview": "",
-      "code": "",
-      "thumbnail": "",
-      "images": [
-        ""
-      ],
-      "tech": [
-        "Artificial Intelligence",
-        "Biometric Verification",
-        "Chatbot Integration",
-        "Cybersecurity"
-      ],
-      "slug": "mindlock-ai",
-      "category": [2]
-    },
-    {
-      "show": true,
-      "title": "PALAPES UTeM System Fitness",
-      "desc": [
-        "Developed a comprehensive fitness measurement and scalable database management system for the Reserve Officers Training Unit (PALAPES).",
-        "Engineered performance data processing algorithms to track and manage cadet physical assessments (e.g., 2.4 km runs, push-ups) for over 100+ military personnel."
-      ],
-      "year": "2025",
-      "preview": "",
-      "code": "",
-      "thumbnail": "",
-      "images": [
-        ""
-      ],
-      "tech": [
-        "PHP",
-        "C++",
-        "Database Management",
-        "Data Processing"
-      ],
-      "slug": "palapes-fitness-system",
-      "category": [1]
-    },
-    {
-      "show": true,
-      "title": "Autonomous Object & Face Detection System",
-      "desc": [
-        "Implemented Deep Learning-based detection models for Robocon Malaysia 2025.",
-        "Utilized Python and OpenCV to detect and track human faces and basketball nets in real-time, significantly enhancing autonomous robot targeting precision."
-      ],
-      "year": "2025",
-      "preview": "",
-      "code": "",
-      "thumbnail": "",
-      "images": [
-        ""
-      ],
-      "tech": [
-        "Python",
-        "OpenCV",
-        "Deep Learning",
-        "Object Detection"
-      ],
-      "slug": "robocon-detection",
-      "category": [2]
     }
   ]
 }
