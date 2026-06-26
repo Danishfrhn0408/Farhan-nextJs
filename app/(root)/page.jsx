@@ -65,13 +65,31 @@ const MyPage = () => {
                         <motion.p className="title text-md 2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]" initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.4, type: "spring" }}>
                             Final-year Computer Science (Artificial Intelligence) student seeking a 6-month internship. Experienced in Vision-Language Models (VLM), Deep Learning, Multi-Agent Systems (MAS), and IoT. A 4x Dean&rsquo;s List awardee combining technical expertise with military-level leadership training.
                         </motion.p>
-                        <motion.div className="buttons flex flex-row justify-center items-center space-x-4 mt-10" initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.5, type: "spring" }}>
+                        
+                        {/* Under Construction Notice */}
+                        <motion.div 
+                            className="mt-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded-md w-full max-w-xl text-center font-semibold animate-pulse"
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.6 }}>
+                            ⚠️ System is under active development / setup not finalized yet. Please use my backup link below for full details.
+                        </motion.div>
+
+                        <motion.div className="buttons flex flex-wrap justify-center md:justify-start items-center gap-4 mt-10" initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.5, type: "spring" }}>
                             <Button variation="primary">
                                 <Link href={"/docs/cv.pdf"} target="_blank" rel="noopener noreferrer" download>Download CV</Link>
                             </Button>
                             <Button variation="secondary">
                                 <a href="#contact">Contact Me</a>
                             </Button>
+                            {/* Backup Linktree Button */}
+                            <a 
+                                href="https://linktr.ee/danishfrhn" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-md transition-all duration-300 shadow-lg">
+                                Backup Linktree
+                            </a>
                         </motion.div>
                     </motion.div>
                     <motion.div className="hidden md:flex col-span-1 mx-auto justify-center items-center " initial={{ x: 100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.7, type: "spring" }}>
@@ -92,7 +110,7 @@ const MyPage = () => {
                         <motion.h1 className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold" initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.1, type: "spring" }}>About Me</motion.h1>
                         <Hr />
                         <motion.p className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5 max-w-2xl" initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.2, type: "spring" }}>
-                            I am a highly adaptable and disciplined developer with a 3.50 GPA, balancing a demanding academic load with military training (PALAPES UTeM) and part-time tech roles. I am eager to contribute scalable, data-driven problem-solving skills to a dynamic tech or engineering team.
+                            I am a highly adaptable and disciplined developer with a >3.50 GPA, balancing a demanding academic load with military training (PALAPES UTeM) and part-time tech roles. I am eager to contribute scalable, data-driven problem-solving skills to a dynamic tech or engineering team.
                         </motion.p>
                     </div>
                 </div>
